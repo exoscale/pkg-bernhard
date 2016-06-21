@@ -1,3 +1,9 @@
+bernhard (0.2.4-1~xenial0+exo1) xenial; urgency=medium
+
+  * Backport for Xenial.
+
+ -- Vincent Bernat <bernat@debian.org>  Tue, 21 Jun 2016 10:13:13 +0200
+
 bernhard (0.2.4-1) unstable; urgency=low
 
   * Initial release (closes: #827727)
