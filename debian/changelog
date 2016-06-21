@@ -1,0 +1,5 @@
+bernhard (0.2.4-1) unstable; urgency=low
+
+  * Initial release (closes: #827727)
+
+ -- Vincent Bernat <bernat@debian.org>  Mon, 20 Jun 2016 09:47:44 +0000

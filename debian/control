@@ -1,0 +1,27 @@
+Source: bernhard
+Section: python
+Priority: optional
+Maintainer: Vincent Bernat <bernat@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-python,
+               protobuf-compiler,
+               python-all,
+               python-protobuf,
+               python-setuptools
+Standards-Version: 3.9.8
+Homepage: http://github.com/banjiewen/bernhard.git
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/bernhard.git
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/bernhard.git
+
+Package: python-bernhard
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+Recommends: ${python:Recommends}
+Suggests: ${python:Suggests}
+XB-Python-Egg-Name: bernhard
+Description: client for the Reiamnn event stream processor - Python 2.X
+ Riemann aggregates events from your servers and applications with a
+ powerful stream processing language. This package provides a Python
+ client for Riemann. It supports UDP, TCP and TLS transports.
+ .
+ This package contains the module for Python 2.

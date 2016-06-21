@@ -1,0 +1,28 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bernhard
+Upstream-Contact: Benjamin Anderspn <b@banjiewen.net>
+Source: http://github.com/banjiewen/bernhard.git
+
+Files: *
+Copyright: Benjamin Anderspn <b@banjiewen.net>
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2016 © Vincent Bernat <bernat@debian.org>
+License: Apache-2.0
+
+Files: debian/riemann.proto
+Copyright: No copyright holder
+License: public-domain
+ This is an interface file and it is not copyrightable. It has been
+ fetched from
+ https://github.com/banjiewen/bernhard/blob/master/proto.proto.
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+       http://www.apache.org/licenses/LICENSE-2.0
+ .
+ On Debian systems, the full license can be found in
+ /usr/share/common-licenses/Apache-2.0.
