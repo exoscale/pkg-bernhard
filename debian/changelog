@@ -1,3 +1,10 @@
+bernhard (0.2.4-1~precise0+exo1) precise; urgency=medium
+
+  * Backport to Precise.
+    + Don't use pybuild.
+
+ -- Vincent Bernat <bernat@debian.org>  Tue, 21 Jun 2016 10:05:44 +0200
+
 bernhard (0.2.4-1) unstable; urgency=low
 
   * Initial release (closes: #827727)

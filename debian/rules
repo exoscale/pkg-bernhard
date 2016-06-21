@@ -1,8 +1,7 @@
 #! /usr/bin/make -f
 
-export PYBUILD_NAME=bernhard
 %:
-	dh $@ --with python2 --buildsystem=pybuild
+	dh $@ --with python2
 
 override_dh_auto_build:
 	protoc -I=debian --python_out=bernhard debian/riemann.proto
