@@ -1,3 +1,9 @@
+bernhard (0.2.4-1~bpo8+0+exo1) jessie-backports; urgency=medium
+
+  * Backport for Jessie.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 05 Jul 2017 16:41:32 +0200
+
 bernhard (0.2.4-1) unstable; urgency=low
 
   * Initial release (closes: #827727)
