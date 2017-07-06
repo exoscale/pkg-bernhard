@@ -1,4 +1,4 @@
-bernhard (0.2.4-1~bpo8+0+exo1) jessie-backports; urgency=medium
+bernhard (0.2.4-1~jessie0+exo1) jessie-backports; urgency=medium
 
   * Backport for Jessie.
 
