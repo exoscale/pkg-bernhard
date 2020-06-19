@@ -1,0 +1,11 @@
+diff -urN a/bernhard/__init__.py b/bernhard/__init__.py
+--- a/bernhard/__init__.py	2017-12-22 06:30:39.000000000 +0100
++++ b/bernhard/__init__.py	2020-06-19 13:01:02.399739151 +0200
+@@ -100,7 +100,6 @@
+                                     keyfile=keyfile,
+                                     certfile=certfile,
+                                     cert_reqs=ssl.CERT_REQUIRED,
+-                                    ssl_version=ssl.PROTOCOL_TLSv1,
+                                     ca_certs=ca_certs)
+ 
+ 
