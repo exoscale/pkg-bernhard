@@ -1,3 +1,9 @@
+bernhard (0.2.6-1+exo1~focal) UNRELEASED; urgency=low
+
+  * Forport from Bionic to Focal (incl. SSL protocol patch)
+
+ -- Cédric Dufour <cedric.dufour@exoscale.ch>  Wed, 24 Jun 2020 11:21:09 +0200
+
 bernhard (0.2.6-1+exo1~xenial) UNRELEASED; urgency=low
 
   * Backport from Bionic to Xenial (incl. Python 3 support)
