@@ -2,7 +2,7 @@
 
 export PYBUILD_NAME=bernhard
 %:
-	dh $@ --with python2 --buildsystem=pybuild
+	dh $@ --with python2,python3 --buildsystem=pybuild
 
 override_dh_auto_build:
 	protoc -I=debian --python_out=bernhard debian/riemann.proto
